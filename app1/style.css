@@ -1,0 +1,92 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Contenedores principales */
+  #paginaInicio, #seccion-registro, #seccion-ingreso, #seccion-crear {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    display: none;
+  }
+  
+  #paginaInicio {
+    display: block;
+  }
+  
+  /* Encabezados */
+  h1 {
+    color: #1877f2;
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+  
+  h2 {
+    color: #1877f2;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  h3 {
+    color: #1877f2;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  
+  /* Inputs */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  input:focus {
+    border-color: #1877f2;
+  }
+  
+  /* Botones */
+  button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  /* Enlaces para volver */
+  p.volverInicio1, p.volverInicio2, p.volverInicio3 {
+    color: #1877f2;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

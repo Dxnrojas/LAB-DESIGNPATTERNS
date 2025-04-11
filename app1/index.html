@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOGRAM</title>
+    <link rel="stylesheet" href="/app1/style.css">
+</head>
+
+<body>
+    <div id="paginaInicio">
+        <h1>BIENVENIDO A ECOGRAM</h1>
+        <button id="boton-registro">Registro</button>
+        <button id="boton-ingreso">Login</button>
+    </div>
+
+    <div id="seccion-registro">
+        <h2>Registrar usuario</h2>
+            <input type="text" id="entrada-usuario" placeholder="user">
+            <input type="text" id="entrada-nombre" placeholder="name">
+            <input type="password" id="entrada-clave" placeholder="password">
+            <button id="botonRegistrar">Registrar</button>
+            <p class="volverInicio1">Volver al home</p>
+    </div>
+
+    <div id="seccion-ingreso">
+        <h2>Login</h2>
+            <input type="text" placeholder="user" id="usuario-ingreso">
+            <input type="password" placeholder="password" id="clave-ingreso">
+            <button id="botonIngresar" type="submit">Login</button>
+            <p class="volverInicio2">Volver a pantalla principal</p>
+    </div>
+
+    <div id="seccion-crear">
+        <h2 id="mensajeEstado">Crear Post</h2>
+            <input type="text" placeholder="Url imagen" id="imagen-contenido">
+            <input type="text" placeholder="Título" id="titulo-contenido">
+            <input type="text" placeholder="Description" id="descripcion-contenido">
+        <button id="botonCrear">Crear Post</button>
+        <p class="volverInicio3">Volver al home</p>
+    </div>
+    <script src="/app1/index.js"></script>
+</body>
+
+</html>
